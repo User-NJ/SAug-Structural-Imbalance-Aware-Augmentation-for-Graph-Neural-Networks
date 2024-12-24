@@ -1,0 +1,117 @@
+{
+  "Cora": {
+    "GCN": {
+      "add_threshold": 0.75,
+      "add_topK": 7,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.4,
+      "hub_times": 2
+    },
+    "GraphSAGE": {
+      "add_threshold": 0.8,
+      "add_topK": 9,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.4,
+      "hub_times": 3
+    },
+    "GAT": {
+      "add_threshold": 0.85,
+      "add_topK": 3,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.4,
+      "hub_times": 2
+    }
+  },
+  "CiteSeer": {
+    "GCN": {
+      "add_threshold": 0.8,
+      "add_topK": 7,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.45,
+      "hub_times": 2
+    },
+    "GraphSAGE": {
+      "add_threshold": 0.8,
+      "add_topK": 9,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.35,
+      "hub_times": 3
+    },
+    "GAT": {
+      "add_threshold": 0.8,
+      "add_topK": 9,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.4,
+      "hub_times": 5
+    }
+  },
+  "chameleon": {
+    "GCN": {
+      "add_threshold": 0.75,
+      "add_topK": 9,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.4,
+      "hub_times": 4
+    },
+    "GraphSAGE": {
+      "add_threshold": 0.8,
+      "add_topK": 9,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.45,
+      "hub_times": 5
+    },
+    "GAT": {
+      "add_threshold": 0.8,
+      "add_topK": 9,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.35,
+      "hub_times": 4
+    }
+  },
+  "squirrel": {
+    "GCN": {
+      "add_threshold": 0.7,
+      "add_topK": 9,
+      "drop_threshold": 0.05,
+      "tail_ratio": 0.35,
+      "hub_times": 2
+    },
+    "GraphSAGE": {
+      "add_threshold": 0.8,
+      "add_topK": 9,
+      "drop_threshold": 0.05,
+      "tail_ratio": 0.35,
+      "hub_times": 5
+    },
+    "GAT": {
+      "add_threshold": 0.8,
+      "add_topK": 9,
+      "drop_threshold": 0.05,
+      "tail_ratio": 0.4,
+      "hub_times": 3
+    }
+  },
+  "actor": {
+    "GCN": {
+      "add_threshold": 0.8,
+      "add_topK": 9,
+      "drop_threshold": 0.05,
+      "tail_ratio": 0.4,
+      "hub_times": 3
+    },
+    "GraphSAGE": {
+      "add_threshold": 0.85,
+      "add_topK": 9,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.35,
+      "hub_times": 2
+    },
+    "GAT": {
+      "add_threshold": 0.75,
+      "add_topK": 7,
+      "drop_threshold": 0.1,
+      "tail_ratio": 0.45,
+      "hub_times": 4
+    }
+  }
+}

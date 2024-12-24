@@ -1,0 +1,32 @@
+{
+  "Cora":
+  {
+    "GCN": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.2, "hub_ratio": 5},
+    "GraphSAGE": {"add_threshold": 0.95, "add_topK": 3, "drop_threshold": 0.1, "tail_ratio": 0.15,"hub_ratio": 2},
+    "GAT": {"add_threshold": 0.8, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.3,"hub_ratio": 4}
+  },
+  "CiteSeer":
+  {
+    "GCN": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.3, "tail_ratio": 0.35, "hub_ratio": 5},
+    "GraphSAGE": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.2,"hub_ratio": 5},
+    "GAT": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.45,"hub_ratio": 4}
+  },
+  "chameleon":
+  {
+    "GCN": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.2, "hub_ratio": 3},
+    "GraphSAGE": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.25,"hub_ratio": 2},
+    "GAT": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.2,"hub_ratio": 3}
+  },
+  "squirrel":
+  {
+    "GCN": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.45, "hub_ratio": 4},
+    "GraphSAGE": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.2, "tail_ratio": 0.2,"hub_ratio": 4},
+    "GAT": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.2, "tail_ratio": 0.1,"hub_ratio": 2}
+  },
+  "actor":
+  {
+    "GCN": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.25, "hub_ratio": 2},
+    "GraphSAGE": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.25,"hub_ratio": 3},
+    "GAT": {"add_threshold": 0.95, "add_topK": 1, "drop_threshold": 0.1, "tail_ratio": 0.25,"hub_ratio": 3}
+  }
+}
